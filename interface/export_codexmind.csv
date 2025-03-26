@@ -1,0 +1,22 @@
+Archivo,Líneas totales,Código,Comentarios,En blanco,Funciones,Clases,Imports,Resumen IA
+demo_neural.py,62,41,10,11,2,1,numpy,"### 1. Propósito
+
+Este archivo contiene el código para el proyecto de redes neuronales, que permite crear y entrenar redes neuronales a partir de datos de entrenamiento y de predicción.
+
+### 2. Clases
+
+* La clase `NeuralNetwork` es la que crea la red neuronal y contiene las funciones que la usan para entrenar la red.
+* La función `sigmoid` devuelve la función sigmoidal de un número.
+* La función `sigmoid_derivative` devuelve la derivada de la función sigmoidal de un número.
+
+### 3. Importaciones
+
+* Importa el paquete NumPy (numpy), el cual es una librería que proporciona matrices, vectores, etc"
+gestion_inventario.py,0,0,0,0,0,0,,No se pudo generar resumen.
+planetario.py,79,60,9,10,3,1,"numpy, matplotlib.pyplot, matplotlib.animation.FuncAnimation","### 1. ¿Cuál es el propósito principal de este archivo?
+
+Este archivo es el núcleo del proyecto y contiene el código que controla la simulación del movimiento de los cuerpos celestes, tales como la Tierra, la Luna, el Sol y las estrellas del sistema solar. La simulación se basa en la física de Newton, que es el paradigma científico que determina las leyes y las reglas de la naturaleza.
+
+### 2. ¿Qué hacen sus clases y funciones más importantes?
+
+La clase `CelestialBody` representa un cuerpo celeste, es decir, un planeta o una estrella. El constructor de la clase es `def __init__(self, x, y, mass, size, colour, name, acceleration=None, speed="
